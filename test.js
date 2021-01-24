@@ -25,10 +25,8 @@ function addGs(){
         },
         redirect: 'follow', // manual, *follow, error
         //referrerPolicy: 'no-referrer', // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
-        body: JSON.stringify({name:"Jack"}) // body data type must match "Content-Type" header
-     
-
-    })
+        body: JSON.stringify({SAISON:"2022-2023",NOM:"NOUVEAU",PRENOM:"Christian",DATE:"12/03/1997",SECTION:"DEVTEST"}) // body data type must match "Content-Type" header
+        })
    
 }
 document.getElementById("btn").addEventListener("click",testGs)
